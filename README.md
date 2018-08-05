@@ -1,5 +1,5 @@
 # DigitTableEncoding
-An new encoding way implemented by DigitTable
+A self-invented encoding method towards digit sequence
 
 ## Introduction
 DigitTable Encoding: Randomly extended 4 directions of digit table, the tracks from known place to aim place were taken for codes.<br>
