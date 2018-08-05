@@ -1,5 +1,7 @@
-# DigitTableEncoding
-A self-invented encoding method towards digit sequence
+# DigitTableEncoding九宫格编码
+A self-invented encoding method towards digit sequence<br>
+一个自创的面向数字序列的编码方法
+(2017.12)
 
 ## Introduction
 DigitTable Encoding: Randomly extended 4 directions of a digit table, the tracks from previous place to the next were taken for codes.<br>
