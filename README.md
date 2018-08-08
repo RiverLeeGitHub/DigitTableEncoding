@@ -4,7 +4,7 @@ A self-invented encoding method towards digit sequence<br>
 (2017.12)
 
 ## Introduction
-DigitTable Encoding: Randomly extends 4 directions of a digit table, and determines the position of each value of sequence. Tracks from previous place to the next were taken for codes.<br>
+DigitTable Encoding: Randomly extends 4 directions of a digit table, and determines the corresponding position of each value of sequence. Tracks from previous place to the next were taken for codes.<br>
 “九宫格”编码：随机延伸九宫格的四个方向，从已知位到目标位移动的轨迹作为码字进行编码。
 
 ## Idea
