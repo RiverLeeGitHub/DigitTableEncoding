@@ -23,16 +23,17 @@ def location(table,value):#return value's position in table
                 return x,y
 
 
-'''
-Encrypt operation:
-Generate a 3*3 digit table first.
-Set the coordinate of the first number of sequence as initial position,
-choose 4 directions randomly, and append the previous table.
-All the number in previous region are set negative.
-Determine aim coordinate in newly appended table，
-The encrypted code will append the track from previous coordinate to aim coordinate.
-'''
+
 def encrypt():
+    '''
+    Encrypt operation:
+    Generate a 3*3 digit table first.
+    Set the coordinate of the first number of sequence as initial position,
+    choose 4 directions randomly, and append the previous table.
+    All the number in previous region are set negative.
+    Determine aim coordinate in newly appended table，
+    The encrypted code will append the track from previous coordinate to aim coordinate.
+    '''
     def move(value,next_value):#Randomly choose 4 directions to append the table
         global table
         
@@ -75,12 +76,12 @@ def encrypt():
     for i in range(len(seq)):#encrypted every place in the sequence
         value=move(value,next_value=seq.pop(0))
 
-'''
-Decrypt operation:
-The first two place of the encrypted sequence stands for the coordinate of initial value,
-we flow the track to find the next value.
-'''
 def decrypt():
+    '''
+    Decrypt operation:
+    The first two place of the encrypted sequence stands for the coordinate of initial value,
+    we flow the track to find the next value.
+    '''
     print ("\n--------------------")
     print ("Decrypting:")
     print ("\nencrypted sequence:",encrypted)
