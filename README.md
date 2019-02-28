@@ -28,5 +28,5 @@ The process of decrypting then chooses the first two places as an initial coordi
 ## Something to say
 1. DigitTable extended the table in random direction, which can increase the randomness when encrypting. Meanwhile, users can DIY their own digit in the table in adapting to different demands, which can also enhance the security of this procedure.
   “九宫格编码”以随机方向延伸九宫格，增加了编码的无序性；同时，用户可以根据自己的需求自定义九宫格里的数字，起到了一定的保密性。
-2. Tables can be adjust to different size as long as it is rectangule.  “九宫格编码”的九宫格不一定是3×3的矩阵，还可以是任意长宽的矩阵。
+2. Tables can be adjusted to different size as long as it is rectangule.  “九宫格编码”的九宫格不一定是3×3的矩阵，还可以是任意长宽的矩阵。
 3. The limitation of this method is an increasement of sequence length.  “九宫格编码”的局限性在于增加了序列长度和存储的空间。
